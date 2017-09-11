@@ -1,4 +1,5 @@
 import Section6.FileMain;
+import Section7.ThreadManagement;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +8,8 @@ public class Main {
 
 //        Section4.ThreadInterrupt.threadInterrupted();
 //        Section5.FileSearch.searchFile();
-        FileMain.thredaInterrupteSleep();
+//        FileMain.thredaInterrupteSleep();
+        ThreadManagement.manageThreads();
     }
 
 }
