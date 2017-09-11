@@ -1,3 +1,5 @@
+package Section6;
+
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -9,7 +11,7 @@ public class FileClock implements Runnable {
             try {
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
-                System.out.printf("The FileClock has been interrupted"); //sleep() 方法被interrupt, 抛InterruptedException
+                System.out.printf("The Section6.FileClock has been interrupted"); //sleep() 方法被interrupt, 抛InterruptedException
             }
         }
     }

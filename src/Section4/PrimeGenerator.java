@@ -1,3 +1,5 @@
+package Section4;
+
 public class PrimeGenerator extends Thread {
     @Override
     public void run() {

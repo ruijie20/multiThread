@@ -1,3 +1,5 @@
+package Section2;
+
 public class Calculator implements Runnable {
     private int number;
 

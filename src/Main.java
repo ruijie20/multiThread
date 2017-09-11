@@ -1,10 +1,12 @@
+import Section6.FileMain;
+
 public class Main {
     public static void main(String[] args) {
-//        CreateAThread.calculateMultiple1To10();
-// ThreadPriorityAndStates.displayThreadPriorityAndStates();
+//        Section2.CreateAThread.calculateMultiple1To10();
+// Section3.ThreadPriorityAndStates.displayThreadPriorityAndStates();
 
-//        ThreadInterrupt.threadInterrupted();
-//        FileSearch.searchFile();
+//        Section4.ThreadInterrupt.threadInterrupted();
+//        Section5.FileSearch.searchFile();
         FileMain.thredaInterrupteSleep();
     }
 

@@ -1,3 +1,5 @@
+package Section4;
+
 public class ThreadInterrupt {
     static void threadInterrupted() {
         PrimeGenerator primeGenerator = new PrimeGenerator();

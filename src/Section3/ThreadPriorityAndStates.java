@@ -1,3 +1,7 @@
+package Section3;
+
+import Section2.Calculator;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
