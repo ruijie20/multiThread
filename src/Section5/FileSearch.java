@@ -12,20 +12,6 @@ public class FileSearch implements Runnable{
         this.fileName = fileName;
     }
 
-    static void searchFile() {
-        FileSearch fileSearch = new FileSearch("/fileSearch", "log 3.txt");
-
-        Thread thread = new Thread(fileSearch);
-        thread.start();
-
-        try{
-            TimeUnit.MILLISECONDS.sleep(1000);
-        }catch (InterruptedException e){
-            e.printStackTrace();
-        }
-        thread.interrupt();
-    }
-
     private void directoryProcess(File file) throws InterruptedException{
         File[] files = file.listFiles();
         if(files != null){

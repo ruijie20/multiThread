@@ -3,7 +3,12 @@ package Section6;
 import java.util.concurrent.TimeUnit;
 
 public class FileMain {
-    static public void thredaInterrupteSleep(){
+
+    public static void main(String[] args) {
+        threadInterruptSleep();
+    }
+
+    static public void threadInterruptSleep(){
         FileClock fileClock = new FileClock();
         Thread thread = new Thread(fileClock);
         thread.start();

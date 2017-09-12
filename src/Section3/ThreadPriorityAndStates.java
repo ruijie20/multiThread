@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class ThreadPriorityAndStates {
+    public static void main(String[] args) {
+        displayThreadPriorityAndStates();
+    }
     static void displayThreadPriorityAndStates() {
         Thread[] threads = new Thread[10];
         Thread.State[] states = new Thread.State[10];

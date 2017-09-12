@@ -1,6 +1,10 @@
 package Section4;
 
 public class ThreadInterrupt {
+    public static void main(String[] args) {
+        threadInterrupted();
+    }
+
     static void threadInterrupted() {
         PrimeGenerator primeGenerator = new PrimeGenerator();
         primeGenerator.start();

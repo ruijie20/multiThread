@@ -3,6 +3,10 @@ package Section7;
 import java.util.Date;
 
 public class ThreadManagement {
+    public static void main(String[] args) {
+        manageThreads();
+    }
+
     static public void manageThreads(){
         DataSourceLoader dataSourceLoader = new DataSourceLoader();
         Thread dataSourceThread = new Thread(dataSourceLoader, "DataSourceThread");
