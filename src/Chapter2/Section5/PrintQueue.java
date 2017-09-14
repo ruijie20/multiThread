@@ -4,9 +4,14 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class PrintQueue {
-    private final Lock queueLock = new ReentrantLock();
+    private final Lock queueLock = new ReentrantLock(false);
 
     public void printJob(Object document){
+        printADocument();
+        printADocument();
+    }
+
+    private void printADocument() {
         queueLock.lock();
 
         try {

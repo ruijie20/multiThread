@@ -12,6 +12,11 @@ public class Main {
 
         for (int i = 0; i < 10; i++) {
             threads[i].start();
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
