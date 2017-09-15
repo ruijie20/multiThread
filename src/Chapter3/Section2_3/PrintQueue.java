@@ -1,4 +1,4 @@
-package Chapter3;
+package Chapter3.Section2_3;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
