@@ -24,7 +24,7 @@ public class FileMock {
 
     public String getLine(){
         if (this.hasMoreLines()){
-            System.out.printf("Mock: %d", content.length - index);
+            System.out.printf("Mock: %d\n", content.length - index);
             return content[index ++];
         }
         return null;

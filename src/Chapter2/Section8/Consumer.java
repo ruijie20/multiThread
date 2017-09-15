@@ -19,6 +19,7 @@ public class Consumer implements Runnable{
 
     private void processLine(String line) {
         try {
+            System.out.printf("lines: %s\n", line);
             Thread.sleep(new Random().nextInt(100));
         } catch (InterruptedException e) {
             e.printStackTrace();
